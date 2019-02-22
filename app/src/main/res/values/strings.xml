@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DS Notes</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_open">Navigation Open</string>
+    <string name="nav_closed">Navigation Closed</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+        android:gravity="center"
+    android:id="@+id/dlayout"
+        >
+
+    <EditText
+        android:id="@+id/dedit"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:hint="Notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:textAlignment="center"
+        android:id="@+id/selectdate"
+        android:layout_marginTop="10dp"
+
+        android:hint="Date"
+        android:textSize="20dp"
+        android:background="#38e7e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textAlignment="center"
+        android:id="@+id/selecttime"
+        android:layout_marginTop="10dp"
+
+        android:hint="Time"
+        android:textSize="20dp"
+        android:background="#38e7e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="10dp"
+
+        android:onClick="savedialogue"
+        android:text="Save"
+        android:textSize="20dp"
+        android:background="#38e7e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
